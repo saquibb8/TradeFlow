@@ -4328,3 +4328,1838 @@ group by all
 [0m19:09:32.097313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7D389D7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7D35BA450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7DB3AD2D0>]}
 [0m19:09:32.097313 [debug] [MainThread]: Flushing usage events
 [0m19:09:32.524903 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:11:37.142131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c838aaba330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c838a465520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c838aabbad0>]}
+
+
+============================== 17:11:37.163160 | cc52784a-032b-4cfd-af5e-f11806609abc ==============================
+[0m17:11:37.163160 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:11:37.166609 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'empty': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'log_path': '/opt/airflow/dbt/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'target_path': 'None', 'warn_error': 'None', 'profiles_dir': '/opt/airflow/dbt', 'printer_width': '80', 'quiet': 'False', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt'}
+[0m17:11:37.183577 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'tradeflow'
+[0m17:11:37.187052 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.26979285, "process_in_blocks": "0", "process_kernel_time": 0.487396, "process_mem_max_rss": "105008", "process_out_blocks": "0", "process_user_time": 4.082946}
+[0m17:11:37.189960 [debug] [MainThread]: Command `dbt run` failed at 17:11:37.189744 after 0.27 seconds
+[0m17:11:37.191960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c838a41a1e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c83895e62a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c83895e6540>]}
+[0m17:11:37.194782 [debug] [MainThread]: Flushing usage events
+[0m17:11:37.479513 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:22:43.945827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7f934fce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7fbff5130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7fa3f78f0>]}
+
+
+============================== 17:22:43.960035 | 14c5ea2c-d936-4972-b1e5-8ad0e132c369 ==============================
+[0m17:22:43.960035 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:22:43.963417 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'use_experimental_parser': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'log_path': '/opt/airflow/dbt/logs', 'empty': 'False', 'log_cache_events': 'False', 'no_print': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'printer_width': '80', 'static_parser': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'partial_parse': 'True', 'use_colors': 'True', 'debug': 'False', 'log_format': 'default', 'introspect': 'True', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'write_json': 'True'}
+[0m17:22:43.982403 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'tradeflow'
+[0m17:22:43.987309 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.17902604, "process_in_blocks": "0", "process_kernel_time": 0.547862, "process_mem_max_rss": "105232", "process_out_blocks": "1904", "process_user_time": 4.242932}
+[0m17:22:43.990287 [debug] [MainThread]: Command `dbt run` failed at 17:22:43.990015 after 0.18 seconds
+[0m17:22:43.994200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7fa6da030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7f944e540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed7f91e7080>]}
+[0m17:22:43.997174 [debug] [MainThread]: Flushing usage events
+[0m17:22:44.272020 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:27:52.215266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0701990a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0701ac52b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0702968b30>]}
+
+
+============================== 17:27:52.228211 | 12c1a613-3e91-4e6e-8b1e-c75207e940fa ==============================
+[0m17:27:52.228211 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:27:52.231630 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'printer_width': '80', 'cache_selected_only': 'False', 'no_print': 'None', 'version_check': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'fail_fast': 'False', 'empty': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'profiles_dir': '/opt/airflow/dbt', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'warn_error': 'None', 'target_path': 'None', 'quiet': 'False', 'use_colors': 'True', 'log_path': '/opt/airflow/dbt/logs', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt'}
+[0m17:27:56.067470 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:27:56.070675 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:27:56.074635 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:27:56.673647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '12c1a613-3e91-4e6e-8b1e-c75207e940fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06d0ba0410>]}
+[0m17:27:56.922216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '12c1a613-3e91-4e6e-8b1e-c75207e940fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f070176eea0>]}
+[0m17:27:56.926882 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:27:57.264233 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:27:58.321524 [debug] [MainThread]: Partial parsing enabled: 162 files deleted, 162 files added, 0 files changed.
+[0m17:27:58.326774 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/create.sql
+[0m17:27:58.330399 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/create.sql
+[0m17:27:58.334988 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/materialized_view.sql
+[0m17:27:58.339450 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/schema.sql
+[0m17:27:58.343748 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/functions/aggregate.sql
+[0m17:27:58.349449 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create_backup.sql
+[0m17:27:58.353808 [debug] [MainThread]: Partial parsing: added file: dbt://macros/unit_test_sql/get_fixture_sql.sql
+[0m17:27:58.357857 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/split_part.sql
+[0m17:27:58.361588 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_users.sql
+[0m17:27:58.364665 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/alter.sql
+[0m17:27:58.368426 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/clone.sql
+[0m17:27:58.372077 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/drop_backup.sql
+[0m17:27:58.375332 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/can_clone_table.sql
+[0m17:27:58.378669 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/escape_single_quotes.sql
+[0m17:27:58.382675 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/refresh.sql
+[0m17:27:58.386160 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/indexes.sql
+[0m17:27:58.388696 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/rename.sql
+[0m17:27:58.391834 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/column/columns_spec_ddl.sql
+[0m17:27:58.395404 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_schema.sql
+[0m17:27:58.398753 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/safe_cast.sql
+[0m17:27:58.402173 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_database.sql
+[0m17:27:58.405937 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/view.sql
+[0m17:27:58.409720 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/dateadd.sql
+[0m17:27:58.412395 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create_intermediate.sql
+[0m17:27:58.416727 [debug] [MainThread]: Partial parsing: added file: dbt://macros/etc/statement.sql
+[0m17:27:58.420579 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_alias.sql
+[0m17:27:58.423813 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/describe.sql
+[0m17:27:58.427369 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/view.sql
+[0m17:27:58.432571 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/timestamps.sql
+[0m17:27:58.437639 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/persist_docs.sql
+[0m17:27:58.441316 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/bool_or.sql
+[0m17:27:58.445028 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create.sql
+[0m17:27:58.449831 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/test.sql
+[0m17:27:58.454435 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/rename.sql
+[0m17:27:58.457904 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/hooks.sql
+[0m17:27:58.462207 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/snapshot.sql
+[0m17:27:58.466383 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/relationships.sql
+[0m17:27:58.470900 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/show.sql
+[0m17:27:58.474447 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/relation.sql
+[0m17:27:58.478665 [debug] [MainThread]: Partial parsing: added file: tradeflow://macros/generate_schema_name.sql
+[0m17:27:58.482293 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/table.sql
+[0m17:27:58.487172 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/drop.sql
+[0m17:27:58.493690 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/intermediate/int_cart_products.sql
+[0m17:27:58.499149 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/rename.sql
+[0m17:27:58.503437 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/right.sql
+[0m17:27:58.507434 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/right.sql
+[0m17:27:58.511974 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/create.sql
+[0m17:27:58.517019 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/cast.sql
+[0m17:27:58.520509 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/generate_series.sql
+[0m17:27:58.523416 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/incremental.sql
+[0m17:27:58.526475 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/rename_intermediate.sql
+[0m17:27:58.529749 [debug] [MainThread]: Partial parsing: added file: dbt://macros/etc/datetime.sql
+[0m17:27:58.533561 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/configs.sql
+[0m17:27:58.537963 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/aggregate.sql
+[0m17:27:58.542733 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/not_null.sql
+[0m17:27:58.546398 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/function.sql
+[0m17:27:58.549755 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_product_performance.sql
+[0m17:27:58.553277 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/replace.sql
+[0m17:27:58.557932 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_concat.sql
+[0m17:27:58.562440 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_construct.sql
+[0m17:27:58.565842 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date_trunc.sql
+[0m17:27:58.570048 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/apply_grants.sql
+[0m17:27:58.573252 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/unit.sql
+[0m17:27:58.577093 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/merge.sql
+[0m17:27:58.580384 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/drop.sql
+[0m17:27:58.584396 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/seeds/seed.sql
+[0m17:27:58.588611 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental/merge.sql
+[0m17:27:58.592861 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental.sql
+[0m17:27:58.595837 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_append.sql
+[0m17:27:58.599264 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/literal.sql
+[0m17:27:58.602357 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/hash.sql
+[0m17:27:58.606133 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/position.sql
+[0m17:27:58.609998 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/drop.sql
+[0m17:27:58.613327 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/strategies.sql
+[0m17:27:58.617550 [debug] [MainThread]: Partial parsing: added file: dbt://docs/overview.md
+[0m17:27:58.621730 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/replace.sql
+[0m17:27:58.624887 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/last_day.sql
+[0m17:27:58.628408 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/rename.sql
+[0m17:27:58.631501 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/equals.sql
+[0m17:27:58.635837 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/replace.sql
+[0m17:27:58.638504 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/metadata.sql
+[0m17:27:58.640972 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/create_backup.sql
+[0m17:27:58.644552 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental/insert_overwrite.sql
+[0m17:27:58.647073 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/listagg.sql
+[0m17:27:58.651099 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/escape_single_quotes.sql
+[0m17:27:58.656646 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/apply_grants.sql
+[0m17:27:58.661417 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/clone.sql
+[0m17:27:58.666192 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/replace.sql
+[0m17:27:58.670874 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/seed.sql
+[0m17:27:58.674239 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/optional.sql
+[0m17:27:58.677414 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/intersect.sql
+[0m17:27:58.680934 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/rename.sql
+[0m17:27:58.684648 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/adapters.sql
+[0m17:27:58.688289 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/cast_bool_to_text.sql
+[0m17:27:58.692344 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/timestamps.sql
+[0m17:27:58.697174 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/rename.sql
+[0m17:27:58.700846 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/seeds/helpers.sql
+[0m17:27:58.705378 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/drop.sql
+[0m17:27:58.709722 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/get_custom_name.sql
+[0m17:27:58.713738 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/concat.sql
+[0m17:27:58.717666 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/freshness.sql
+[0m17:27:58.721503 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/helpers.sql
+[0m17:27:58.724858 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/create.sql
+[0m17:27:58.728628 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/create.sql
+[0m17:27:58.732367 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/safe_cast.sql
+[0m17:27:58.735417 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/length.sql
+[0m17:27:58.738453 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/scalar.sql
+[0m17:27:58.741614 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/drop.sql
+[0m17:27:58.745248 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/strategies.sql
+[0m17:27:58.749472 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/snapshot.sql
+[0m17:27:58.752727 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/columns.sql
+[0m17:27:58.756245 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_carts.sql
+[0m17:27:58.760243 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/datediff.sql
+[0m17:27:58.764289 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/column_helpers.sql
+[0m17:27:58.768989 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/bool_or.sql
+[0m17:27:58.773220 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/data_types.sql
+[0m17:27:58.779738 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/replace.sql
+[0m17:27:58.784982 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/rename.sql
+[0m17:27:58.790641 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/test.sql
+[0m17:27:58.798957 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/is_incremental.sql
+[0m17:27:58.805134 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_customer_summary.sql
+[0m17:27:58.810607 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/drop.sql
+[0m17:27:58.815589 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_products.sql
+[0m17:27:58.821135 [debug] [MainThread]: Partial parsing: added file: dbt://tests/generic/builtin.sql
+[0m17:27:58.826316 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/validate_sql.sql
+[0m17:27:58.831602 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/replace.sql
+[0m17:27:58.836375 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/table.sql
+[0m17:27:58.840923 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/metadata.sql
+[0m17:27:58.846546 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/except.sql
+[0m17:27:58.851910 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/models/incremental/snowflake_column_helpers.sql
+[0m17:27:58.856840 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/rename_intermediate.sql
+[0m17:27:58.861532 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/helpers.sql
+[0m17:27:58.865991 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/sources.yml
+[0m17:27:58.870726 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/unique.sql
+[0m17:27:58.876258 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/create.sql
+[0m17:27:58.881680 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/schema.sql
+[0m17:27:58.885799 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_inventory_health.sql
+[0m17:27:58.889698 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/catalog.sql
+[0m17:27:58.893674 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/helpers.sql
+[0m17:27:58.897728 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/dynamic_table.sql
+[0m17:27:58.902944 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date.sql
+[0m17:27:58.907582 [debug] [MainThread]: Partial parsing: added file: dbt://macros/python_model/python.sql
+[0m17:27:58.912564 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/alter.sql
+[0m17:27:58.916966 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/refresh.sql
+[0m17:27:58.921449 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/metadata/list_relations_without_caching.sql
+[0m17:27:58.925543 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/array_construct.sql
+[0m17:27:58.930042 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/replace.sql
+[0m17:27:58.933886 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/rename.sql
+[0m17:27:58.937260 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/functions/scalar.sql
+[0m17:27:58.941613 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/where_subquery.sql
+[0m17:27:58.946971 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/replace.sql
+[0m17:27:58.951553 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/any_value.sql
+[0m17:27:58.955756 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/create_or_replace_clone.sql
+[0m17:27:58.959201 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/create.sql
+[0m17:27:58.962243 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/drop.sql
+[0m17:27:58.966769 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/replace.sql
+[0m17:27:58.971918 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/on_schema_change.sql
+[0m17:27:58.976241 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/accepted_values.sql
+[0m17:27:58.981034 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/cast.sql
+[0m17:27:58.985752 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date_spine.sql
+[0m17:27:58.990894 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/drop.sql
+[0m17:27:58.996971 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/snapshot_merge.sql
+[0m17:27:59.000955 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\models\incremental\snowflake_column_helpers.sql
+[0m17:27:59.005390 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_carts.sql
+[0m17:27:59.011193 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\drop.sql
+[0m17:27:59.014294 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\schema.sql
+[0m17:27:59.017223 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\view.sql
+[0m17:27:59.021011 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\create.sql
+[0m17:27:59.024906 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\cast.sql
+[0m17:27:59.028221 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\rename_intermediate.sql
+[0m17:27:59.031237 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_inventory_health.sql
+[0m17:27:59.034142 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\length.sql
+[0m17:27:59.041152 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\column\columns_spec_ddl.sql
+[0m17:27:59.047711 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\unit.sql
+[0m17:27:59.052107 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\show.sql
+[0m17:27:59.058909 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\view.sql
+[0m17:27:59.064269 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\data_types.sql
+[0m17:27:59.069345 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\optional.sql
+[0m17:27:59.075388 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_users.sql
+[0m17:27:59.080907 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\create.sql
+[0m17:27:59.085371 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\strategies.sql
+[0m17:27:59.089691 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\generate_series.sql
+[0m17:27:59.093554 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\intermediate\int_cart_products.sql
+[0m17:27:59.096954 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\is_incremental.sql
+[0m17:27:59.101908 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\accepted_values.sql
+[0m17:27:59.106872 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\any_value.sql
+[0m17:27:59.111070 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\clone.sql
+[0m17:27:59.115340 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\test.sql
+[0m17:27:59.119059 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\intersect.sql
+[0m17:27:59.123028 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\metadata.sql
+[0m17:27:59.126694 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\describe.sql
+[0m17:27:59.129802 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\timestamps.sql
+[0m17:27:59.133802 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\replace.sql
+[0m17:27:59.137329 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\rename.sql
+[0m17:27:59.141298 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\alter.sql
+[0m17:27:59.145369 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\hooks.sql
+[0m17:27:59.149072 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\except.sql
+[0m17:27:59.152617 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\snapshot.sql
+[0m17:27:59.155345 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\drop.sql
+[0m17:27:59.158485 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\create.sql
+[0m17:27:59.162133 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\relationships.sql
+[0m17:27:59.165805 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_alias.sql
+[0m17:27:59.169850 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\split_part.sql
+[0m17:27:59.173298 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\metadata\list_relations_without_caching.sql
+[0m17:27:59.176160 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\drop.sql
+[0m17:27:59.178495 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\replace.sql
+[0m17:27:59.181427 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\refresh.sql
+[0m17:27:59.185425 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\strategies.sql
+[0m17:27:59.189600 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\python_model\python.sql
+[0m17:27:59.191991 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\seed.sql
+[0m17:27:59.195138 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\clone.sql
+[0m17:27:59.198175 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\replace.sql
+[0m17:27:59.201125 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\rename.sql
+[0m17:27:59.203818 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\helpers.sql
+[0m17:27:59.207434 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\bool_or.sql
+[0m17:27:59.210533 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_append.sql
+[0m17:27:59.213135 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\create_or_replace_clone.sql
+[0m17:27:59.215952 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_database.sql
+[0m17:27:59.219524 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\drop.sql
+[0m17:27:59.223132 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\equals.sql
+[0m17:27:59.227162 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_construct.sql
+[0m17:27:59.230295 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\dateadd.sql
+[0m17:27:59.234771 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\rename_intermediate.sql
+[0m17:27:59.238618 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\column_helpers.sql
+[0m17:27:59.242954 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\cast.sql
+[0m17:27:59.246231 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\incremental.sql
+[0m17:27:59.249809 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\rename.sql
+[0m17:27:59.253608 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create_intermediate.sql
+[0m17:27:59.257222 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_schema.sql
+[0m17:27:59.261281 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\timestamps.sql
+[0m17:27:59.264930 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create.sql
+[0m17:27:59.268811 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\create.sql
+[0m17:27:59.271801 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\functions\aggregate.sql
+[0m17:27:59.275377 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\drop_backup.sql
+[0m17:27:59.278264 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\validate_sql.sql
+[0m17:27:59.282480 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\right.sql
+[0m17:27:59.286717 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\test.sql
+[0m17:27:59.290710 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\refresh.sql
+[0m17:27:59.294257 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\function.sql
+[0m17:27:59.299010 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\dynamic_table.sql
+[0m17:27:59.304246 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\scalar.sql
+[0m17:27:59.308290 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\alter.sql
+[0m17:27:59.312496 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\concat.sql
+[0m17:27:59.317020 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\functions\scalar.sql
+[0m17:27:59.322049 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create_backup.sql
+[0m17:27:59.326300 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date_spine.sql
+[0m17:27:59.331113 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\snapshot_merge.sql
+[0m17:27:59.336720 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\relation.sql
+[0m17:27:59.340141 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\listagg.sql
+[0m17:27:59.343739 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\rename.sql
+[0m17:27:59.347225 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\drop.sql
+[0m17:27:59.351250 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\unit_test_sql\get_fixture_sql.sql
+[0m17:27:59.354948 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\rename.sql
+[0m17:27:59.358687 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\snapshot.sql
+[0m17:27:59.362368 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\create.sql
+[0m17:27:59.367385 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental\merge.sql
+[0m17:27:59.371263 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\cast_bool_to_text.sql
+[0m17:27:59.375815 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\literal.sql
+[0m17:27:59.379999 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\seeds\seed.sql
+[0m17:27:59.383746 [debug] [MainThread]: Partial parsing: deleted file: dbt://tests\generic\builtin.sql
+[0m17:27:59.388127 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\table.sql
+[0m17:27:59.392901 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\create.sql
+[0m17:27:59.397099 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\rename.sql
+[0m17:27:59.401458 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\apply_grants.sql
+[0m17:27:59.405362 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\materialized_view.sql
+[0m17:27:59.409467 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\helpers.sql
+[0m17:27:59.413071 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\not_null.sql
+[0m17:27:59.417005 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\rename.sql
+[0m17:27:59.420701 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\unique.sql
+[0m17:27:59.424820 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_product_performance.sql
+[0m17:27:59.429623 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\escape_single_quotes.sql
+[0m17:27:59.432895 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\etc\datetime.sql
+[0m17:27:59.435969 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\merge.sql
+[0m17:27:59.439340 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\seeds\helpers.sql
+[0m17:27:59.442128 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\hash.sql
+[0m17:27:59.445492 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\where_subquery.sql
+[0m17:27:59.449266 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\replace.sql
+[0m17:27:59.453112 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\drop.sql
+[0m17:27:59.456527 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\catalog.sql
+[0m17:27:59.460673 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\persist_docs.sql
+[0m17:27:59.464551 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\helpers.sql
+[0m17:27:59.468089 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://macros\generate_schema_name.sql
+[0m17:27:59.471518 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\safe_cast.sql
+[0m17:27:59.475164 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_customer_summary.sql
+[0m17:27:59.479076 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\position.sql
+[0m17:27:59.482201 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\escape_single_quotes.sql
+[0m17:27:59.485629 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\schema.sql
+[0m17:27:59.489217 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\last_day.sql
+[0m17:27:59.492859 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\drop.sql
+[0m17:27:59.496539 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\configs.sql
+[0m17:27:59.500222 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\replace.sql
+[0m17:27:59.503474 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\right.sql
+[0m17:27:59.508505 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\columns.sql
+[0m17:27:59.512176 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\replace.sql
+[0m17:27:59.515661 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\safe_cast.sql
+[0m17:27:59.520901 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\adapters.sql
+[0m17:27:59.524796 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\create_backup.sql
+[0m17:27:59.528304 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\aggregate.sql
+[0m17:27:59.531607 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\datediff.sql
+[0m17:27:59.535424 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\freshness.sql
+[0m17:27:59.538758 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\apply_grants.sql
+[0m17:27:59.541142 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\on_schema_change.sql
+[0m17:27:59.543848 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\drop.sql
+[0m17:27:59.546988 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental\insert_overwrite.sql
+[0m17:27:59.550258 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\create.sql
+[0m17:27:59.553600 [debug] [MainThread]: Partial parsing: deleted file: dbt://docs\overview.md
+[0m17:27:59.557237 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\replace.sql
+[0m17:27:59.560980 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\can_clone_table.sql
+[0m17:27:59.564829 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\replace.sql
+[0m17:27:59.569274 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental.sql
+[0m17:27:59.573076 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\indexes.sql
+[0m17:27:59.576852 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date.sql
+[0m17:27:59.580761 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date_trunc.sql
+[0m17:27:59.584481 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\etc\statement.sql
+[0m17:27:59.587759 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\array_construct.sql
+[0m17:27:59.591355 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_products.sql
+[0m17:27:59.595265 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\get_custom_name.sql
+[0m17:27:59.599196 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\rename.sql
+[0m17:27:59.602810 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\replace.sql
+[0m17:27:59.606581 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\metadata.sql
+[0m17:27:59.609952 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\table.sql
+[0m17:27:59.614452 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\bool_or.sql
+[0m17:27:59.618336 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_concat.sql
+[0m17:27:59.621885 [error] [MainThread]: Encountered an error:
+'tradeflow://macros/generate_schema_name.sql'
+[0m17:27:59.629271 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 276, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 321, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 391, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 368, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 407, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 434, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+                          ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 2257, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 323, in get_full_manifest
+    manifest = loader.load()
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 392, in load
+    self.load_and_parse_macros(project_parser_files)
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 707, in load_and_parse_macros
+    block = FileBlock(self.manifest.files[file_id])
+                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'tradeflow://macros/generate_schema_name.sql'
+
+[0m17:27:59.635962 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 7.5556865, "process_in_blocks": "104", "process_kernel_time": 2.799216, "process_mem_max_rss": "209036", "process_out_blocks": "17488", "process_user_time": 9.515727}
+[0m17:27:59.640796 [debug] [MainThread]: Command `dbt run` failed at 17:27:59.640451 after 7.56 seconds
+[0m17:27:59.644190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07025435f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06d1fff410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06d3ebfda0>]}
+[0m17:27:59.648023 [debug] [MainThread]: Flushing usage events
+[0m17:28:00.087698 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:28:04.775640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d1b175f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d34a90a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d154c860>]}
+
+
+============================== 17:28:04.796831 | 0d142982-4bd1-440e-83ba-fa40029b91b4 ==============================
+[0m17:28:04.796831 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:28:04.800840 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'write_json': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_experimental_parser': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'printer_width': '80', 'use_colors': 'True', 'profiles_dir': '/opt/airflow/dbt', 'log_format': 'default', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'quiet': 'False', 'static_parser': 'True'}
+[0m17:28:06.378749 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:28:06.382459 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:28:06.385446 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:28:06.723731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0d142982-4bd1-440e-83ba-fa40029b91b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc89b475460>]}
+[0m17:28:06.838348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0d142982-4bd1-440e-83ba-fa40029b91b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d0656a80>]}
+[0m17:28:06.841809 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:28:07.007598 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:28:07.394277 [debug] [MainThread]: Partial parsing enabled: 162 files deleted, 162 files added, 0 files changed.
+[0m17:28:07.396893 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/helpers.sql
+[0m17:28:07.398606 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/unique.sql
+[0m17:28:07.404157 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/apply_grants.sql
+[0m17:28:07.406161 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/functions/scalar.sql
+[0m17:28:07.408184 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental/insert_overwrite.sql
+[0m17:28:07.410220 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/create.sql
+[0m17:28:07.411728 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/indexes.sql
+[0m17:28:07.413540 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/length.sql
+[0m17:28:07.415137 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/persist_docs.sql
+[0m17:28:07.417821 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/literal.sql
+[0m17:28:07.420537 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/drop.sql
+[0m17:28:07.430156 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental.sql
+[0m17:28:07.432512 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/array_construct.sql
+[0m17:28:07.434435 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/view.sql
+[0m17:28:07.436348 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_schema.sql
+[0m17:28:07.438698 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/except.sql
+[0m17:28:07.440569 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/get_custom_name.sql
+[0m17:28:07.442204 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/view.sql
+[0m17:28:07.443504 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/drop_backup.sql
+[0m17:28:07.444908 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/freshness.sql
+[0m17:28:07.446381 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/create.sql
+[0m17:28:07.449903 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/snapshot.sql
+[0m17:28:07.451945 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/rename.sql
+[0m17:28:07.453508 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/replace.sql
+[0m17:28:07.454990 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/scalar.sql
+[0m17:28:07.456528 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/equals.sql
+[0m17:28:07.457862 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/table.sql
+[0m17:28:07.459240 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/aggregate.sql
+[0m17:28:07.460622 [debug] [MainThread]: Partial parsing: added file: dbt://macros/etc/datetime.sql
+[0m17:28:07.462113 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/incremental/merge.sql
+[0m17:28:07.464313 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_concat.sql
+[0m17:28:07.465779 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/strategies.sql
+[0m17:28:07.467073 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/metadata.sql
+[0m17:28:07.468319 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/drop.sql
+[0m17:28:07.469766 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/create_or_replace_clone.sql
+[0m17:28:07.471237 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/incremental.sql
+[0m17:28:07.472772 [debug] [MainThread]: Partial parsing: added file: tradeflow://macros/generate_schema_name.sql
+[0m17:28:07.475282 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/on_schema_change.sql
+[0m17:28:07.477403 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/dynamic_table.sql
+[0m17:28:07.480959 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/drop.sql
+[0m17:28:07.483311 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/hooks.sql
+[0m17:28:07.485729 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/rename.sql
+[0m17:28:07.487748 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/rename.sql
+[0m17:28:07.489724 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/drop.sql
+[0m17:28:07.491478 [debug] [MainThread]: Partial parsing: added file: dbt://docs/overview.md
+[0m17:28:07.493127 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_product_performance.sql
+[0m17:28:07.495639 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/safe_cast.sql
+[0m17:28:07.497930 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/adapters.sql
+[0m17:28:07.499932 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_carts.sql
+[0m17:28:07.501647 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/replace.sql
+[0m17:28:07.503042 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/clone.sql
+[0m17:28:07.504550 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/replace.sql
+[0m17:28:07.505950 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date_trunc.sql
+[0m17:28:07.507665 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/drop.sql
+[0m17:28:07.509541 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/rename_intermediate.sql
+[0m17:28:07.511148 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/replace.sql
+[0m17:28:07.513522 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/schema.sql
+[0m17:28:07.516180 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/relation.sql
+[0m17:28:07.517662 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/intermediate/int_cart_products.sql
+[0m17:28:07.519058 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/cast.sql
+[0m17:28:07.520804 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/alter.sql
+[0m17:28:07.522474 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_alias.sql
+[0m17:28:07.524057 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/drop.sql
+[0m17:28:07.525666 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/rename.sql
+[0m17:28:07.527477 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/test.sql
+[0m17:28:07.529804 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/safe_cast.sql
+[0m17:28:07.532093 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date_spine.sql
+[0m17:28:07.533553 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_inventory_health.sql
+[0m17:28:07.535411 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/apply_grants.sql
+[0m17:28:07.537053 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/replace.sql
+[0m17:28:07.538663 [debug] [MainThread]: Partial parsing: added file: dbt://tests/generic/builtin.sql
+[0m17:28:07.540455 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_append.sql
+[0m17:28:07.542418 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/test.sql
+[0m17:28:07.544187 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/strategies.sql
+[0m17:28:07.545974 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/accepted_values.sql
+[0m17:28:07.548711 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/optional.sql
+[0m17:28:07.550589 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_products.sql
+[0m17:28:07.552106 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/create.sql
+[0m17:28:07.553595 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/view/create.sql
+[0m17:28:07.555072 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/alter.sql
+[0m17:28:07.556547 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/sources.yml
+[0m17:28:07.558151 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create.sql
+[0m17:28:07.559764 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/replace.sql
+[0m17:28:07.561039 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/catalog.sql
+[0m17:28:07.562466 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/replace.sql
+[0m17:28:07.563980 [debug] [MainThread]: Partial parsing: added file: dbt://macros/python_model/python.sql
+[0m17:28:07.565325 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/column/columns_spec_ddl.sql
+[0m17:28:07.566650 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/right.sql
+[0m17:28:07.568197 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/functions/aggregate.sql
+[0m17:28:07.569472 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/concat.sql
+[0m17:28:07.571257 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/data_types.sql
+[0m17:28:07.572985 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/cast_bool_to_text.sql
+[0m17:28:07.574539 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/any_value.sql
+[0m17:28:07.575842 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/dateadd.sql
+[0m17:28:07.577154 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/helpers.sql
+[0m17:28:07.578361 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/functions/function.sql
+[0m17:28:07.580173 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/merge.sql
+[0m17:28:07.582018 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/date.sql
+[0m17:28:07.583660 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/replace.sql
+[0m17:28:07.585224 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/hash.sql
+[0m17:28:07.587031 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/refresh.sql
+[0m17:28:07.589038 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/where_subquery.sql
+[0m17:28:07.590674 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/describe.sql
+[0m17:28:07.592387 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/bool_or.sql
+[0m17:28:07.593724 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/listagg.sql
+[0m17:28:07.596006 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/snapshot.sql
+[0m17:28:07.598093 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/rename_intermediate.sql
+[0m17:28:07.600137 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create_backup.sql
+[0m17:28:07.601722 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/create.sql
+[0m17:28:07.603411 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/datediff.sql
+[0m17:28:07.604833 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/snapshot_merge.sql
+[0m17:28:07.606562 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/can_clone_table.sql
+[0m17:28:07.607964 [debug] [MainThread]: Partial parsing: added file: dbt://macros/etc/statement.sql
+[0m17:28:07.609405 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/table.sql
+[0m17:28:07.610879 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/rename.sql
+[0m17:28:07.612454 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/rename.sql
+[0m17:28:07.614068 [debug] [MainThread]: Partial parsing: added file: dbt://macros/unit_test_sql/get_fixture_sql.sql
+[0m17:28:07.615477 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/replace.sql
+[0m17:28:07.616911 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/snapshots/helpers.sql
+[0m17:28:07.619146 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/view/create.sql
+[0m17:28:07.621423 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/generate_series.sql
+[0m17:28:07.622899 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/timestamps.sql
+[0m17:28:07.624449 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/escape_single_quotes.sql
+[0m17:28:07.625916 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/split_part.sql
+[0m17:28:07.627374 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/metadata.sql
+[0m17:28:07.628942 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/metadata/list_relations_without_caching.sql
+[0m17:28:07.630711 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/cast.sql
+[0m17:28:07.632570 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/seed.sql
+[0m17:28:07.634459 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/escape_single_quotes.sql
+[0m17:28:07.635924 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/show.sql
+[0m17:28:07.637315 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/tests/unit.sql
+[0m17:28:07.638922 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/dynamic_table/rename.sql
+[0m17:28:07.640457 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/seeds/seed.sql
+[0m17:28:07.642237 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/marts/mart_customer_summary.sql
+[0m17:28:07.643654 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/create.sql
+[0m17:28:07.645530 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/materializations/models/incremental/snowflake_column_helpers.sql
+[0m17:28:07.647480 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/relationships.sql
+[0m17:28:07.649627 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/is_incremental.sql
+[0m17:28:07.651630 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/incremental/column_helpers.sql
+[0m17:28:07.653458 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/drop.sql
+[0m17:28:07.655045 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/clone/clone.sql
+[0m17:28:07.656880 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/create_intermediate.sql
+[0m17:28:07.658816 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/configs.sql
+[0m17:28:07.660618 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/seeds/helpers.sql
+[0m17:28:07.665478 [debug] [MainThread]: Partial parsing: added file: dbt://macros/generic_test_sql/not_null.sql
+[0m17:28:07.667652 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/materialized_view/refresh.sql
+[0m17:28:07.669395 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/create_backup.sql
+[0m17:28:07.671012 [debug] [MainThread]: Partial parsing: added file: dbt://macros/materializations/models/materialized_view.sql
+[0m17:28:07.672547 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/intersect.sql
+[0m17:28:07.674358 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/timestamps.sql
+[0m17:28:07.675968 [debug] [MainThread]: Partial parsing: added file: dbt://macros/get_custom_name/get_custom_database.sql
+[0m17:28:07.677670 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/utils/right.sql
+[0m17:28:07.679599 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/bool_or.sql
+[0m17:28:07.681888 [debug] [MainThread]: Partial parsing: added file: dbt_snowflake://macros/relations/table/drop.sql
+[0m17:28:07.683597 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/schema.sql
+[0m17:28:07.685465 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/validate_sql.sql
+[0m17:28:07.687040 [debug] [MainThread]: Partial parsing: added file: dbt://macros/adapters/columns.sql
+[0m17:28:07.688565 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/array_construct.sql
+[0m17:28:07.690293 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/position.sql
+[0m17:28:07.692387 [debug] [MainThread]: Partial parsing: added file: dbt://macros/relations/table/rename.sql
+[0m17:28:07.693990 [debug] [MainThread]: Partial parsing: added file: dbt://macros/utils/last_day.sql
+[0m17:28:07.695699 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/stg_users.sql
+[0m17:28:07.698582 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\dateadd.sql
+[0m17:28:07.700756 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\dynamic_table.sql
+[0m17:28:07.702517 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\equals.sql
+[0m17:28:07.703957 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\hash.sql
+[0m17:28:07.705489 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\drop.sql
+[0m17:28:07.707992 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental\merge.sql
+[0m17:28:07.709804 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\metadata\list_relations_without_caching.sql
+[0m17:28:07.711176 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\table.sql
+[0m17:28:07.713645 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\rename_intermediate.sql
+[0m17:28:07.715709 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\refresh.sql
+[0m17:28:07.717333 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\rename.sql
+[0m17:28:07.718851 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\replace.sql
+[0m17:28:07.720152 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\test.sql
+[0m17:28:07.723417 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\replace.sql
+[0m17:28:07.725300 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_alias.sql
+[0m17:28:07.727458 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\relation.sql
+[0m17:28:07.729033 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\any_value.sql
+[0m17:28:07.731514 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\cast.sql
+[0m17:28:07.733864 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\columns.sql
+[0m17:28:07.735413 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\create_backup.sql
+[0m17:28:07.738317 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\except.sql
+[0m17:28:07.740537 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\drop_backup.sql
+[0m17:28:07.743703 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\scalar.sql
+[0m17:28:07.746537 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\create_or_replace_clone.sql
+[0m17:28:07.749566 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\replace.sql
+[0m17:28:07.752156 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\create.sql
+[0m17:28:07.754064 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\drop.sql
+[0m17:28:07.756075 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\right.sql
+[0m17:28:07.757847 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\can_clone_table.sql
+[0m17:28:07.760019 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\snapshot_merge.sql
+[0m17:28:07.761732 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\rename.sql
+[0m17:28:07.763546 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\replace.sql
+[0m17:28:07.765110 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\position.sql
+[0m17:28:07.766872 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\metadata.sql
+[0m17:28:07.768162 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\describe.sql
+[0m17:28:07.769799 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\configs.sql
+[0m17:28:07.771514 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental\insert_overwrite.sql
+[0m17:28:07.773714 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\intersect.sql
+[0m17:28:07.776760 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\replace.sql
+[0m17:28:07.779308 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\etc\datetime.sql
+[0m17:28:07.780941 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://macros\generate_schema_name.sql
+[0m17:28:07.782552 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\bool_or.sql
+[0m17:28:07.784937 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\column\columns_spec_ddl.sql
+[0m17:28:07.786565 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\bool_or.sql
+[0m17:28:07.788443 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\etc\statement.sql
+[0m17:28:07.790418 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\freshness.sql
+[0m17:28:07.792804 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\apply_grants.sql
+[0m17:28:07.794499 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\where_subquery.sql
+[0m17:28:07.796329 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\last_day.sql
+[0m17:28:07.799022 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\create.sql
+[0m17:28:07.800983 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\refresh.sql
+[0m17:28:07.802862 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\rename.sql
+[0m17:28:07.804790 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\data_types.sql
+[0m17:28:07.806708 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_inventory_health.sql
+[0m17:28:07.808655 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\models\incremental\snowflake_column_helpers.sql
+[0m17:28:07.810827 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date.sql
+[0m17:28:07.815948 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\timestamps.sql
+[0m17:28:07.817995 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\functions\aggregate.sql
+[0m17:28:07.820350 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\safe_cast.sql
+[0m17:28:07.822607 [debug] [MainThread]: Partial parsing: deleted file: dbt://tests\generic\builtin.sql
+[0m17:28:07.824256 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\replace.sql
+[0m17:28:07.826276 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\optional.sql
+[0m17:28:07.828771 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create_intermediate.sql
+[0m17:28:07.830936 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\drop.sql
+[0m17:28:07.832841 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\unit_test_sql\get_fixture_sql.sql
+[0m17:28:07.834726 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_construct.sql
+[0m17:28:07.836527 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\escape_single_quotes.sql
+[0m17:28:07.838600 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\create.sql
+[0m17:28:07.840867 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\seeds\helpers.sql
+[0m17:28:07.842701 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\validate_sql.sql
+[0m17:28:07.845420 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_concat.sql
+[0m17:28:07.848112 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\hooks.sql
+[0m17:28:07.850195 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\metadata.sql
+[0m17:28:07.852140 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\table.sql
+[0m17:28:07.854244 [debug] [MainThread]: Partial parsing: deleted file: dbt://docs\overview.md
+[0m17:28:07.856176 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\rename.sql
+[0m17:28:07.859173 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\helpers.sql
+[0m17:28:07.861006 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\view.sql
+[0m17:28:07.864124 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\replace.sql
+[0m17:28:07.866316 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\relationships.sql
+[0m17:28:07.868371 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\snapshot.sql
+[0m17:28:07.870351 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\generate_series.sql
+[0m17:28:07.872122 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_carts.sql
+[0m17:28:07.875585 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\literal.sql
+[0m17:28:07.879074 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\view\create.sql
+[0m17:28:07.882134 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\escape_single_quotes.sql
+[0m17:28:07.883943 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\incremental.sql
+[0m17:28:07.888322 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\adapters.sql
+[0m17:28:07.890488 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\test.sql
+[0m17:28:07.893944 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\unit.sql
+[0m17:28:07.897746 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\materialized_view.sql
+[0m17:28:07.900077 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_users.sql
+[0m17:28:07.902322 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\on_schema_change.sql
+[0m17:28:07.904163 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\create.sql
+[0m17:28:07.905775 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\clone.sql
+[0m17:28:07.907391 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\drop.sql
+[0m17:28:07.909256 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\create.sql
+[0m17:28:07.910922 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\incremental.sql
+[0m17:28:07.913540 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_database.sql
+[0m17:28:07.915440 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\snapshots\strategies.sql
+[0m17:28:07.917740 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\length.sql
+[0m17:28:07.919554 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\datediff.sql
+[0m17:28:07.921782 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\snapshot.sql
+[0m17:28:07.924772 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\concat.sql
+[0m17:28:07.927971 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\alter.sql
+[0m17:28:07.933175 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\array_append.sql
+[0m17:28:07.935093 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\drop.sql
+[0m17:28:07.937771 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\schema.sql
+[0m17:28:07.940407 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\cast.sql
+[0m17:28:07.941979 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_customer_summary.sql
+[0m17:28:07.943596 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\schema.sql
+[0m17:28:07.946108 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create.sql
+[0m17:28:07.948893 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\staging\stg_products.sql
+[0m17:28:07.950433 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\unique.sql
+[0m17:28:07.952077 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\show.sql
+[0m17:28:07.953499 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\clone\clone.sql
+[0m17:28:07.955066 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\drop.sql
+[0m17:28:07.956693 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\materialized_view\alter.sql
+[0m17:28:07.958617 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\intermediate\int_cart_products.sql
+[0m17:28:07.963207 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\tests\helpers.sql
+[0m17:28:07.965741 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\rename.sql
+[0m17:28:07.967140 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\table\rename.sql
+[0m17:28:07.970124 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\seeds\seed.sql
+[0m17:28:07.971460 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\function.sql
+[0m17:28:07.974733 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\apply_grants.sql
+[0m17:28:07.977880 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\view\drop.sql
+[0m17:28:07.982066 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\persist_docs.sql
+[0m17:28:07.983481 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\cast_bool_to_text.sql
+[0m17:28:07.984756 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\replace.sql
+[0m17:28:07.988117 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\array_construct.sql
+[0m17:28:07.990063 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\create.sql
+[0m17:28:07.992415 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\create_backup.sql
+[0m17:28:07.996061 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\right.sql
+[0m17:28:07.998389 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\is_incremental.sql
+[0m17:28:08.000302 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\python_model\python.sql
+[0m17:28:08.001610 [debug] [MainThread]: Partial parsing: deleted file: tradeflow://models\marts\mart_product_performance.sql
+[0m17:28:08.004376 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\not_null.sql
+[0m17:28:08.005666 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\table\rename.sql
+[0m17:28:08.006989 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\column_helpers.sql
+[0m17:28:08.008255 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\merge.sql
+[0m17:28:08.009427 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\relations\rename_intermediate.sql
+[0m17:28:08.010557 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\rename.sql
+[0m17:28:08.012445 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\get_custom_name\get_custom_schema.sql
+[0m17:28:08.014017 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\utils\safe_cast.sql
+[0m17:28:08.015551 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\timestamps.sql
+[0m17:28:08.016796 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\listagg.sql
+[0m17:28:08.018044 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\seed.sql
+[0m17:28:08.019453 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\aggregate.sql
+[0m17:28:08.020856 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\functions\helpers.sql
+[0m17:28:08.023340 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\incremental\strategies.sql
+[0m17:28:08.024878 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date_trunc.sql
+[0m17:28:08.026159 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\generic_test_sql\accepted_values.sql
+[0m17:28:08.027817 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\materializations\models\view.sql
+[0m17:28:08.029179 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\split_part.sql
+[0m17:28:08.030862 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\utils\date_spine.sql
+[0m17:28:08.032138 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\get_custom_name.sql
+[0m17:28:08.033441 [debug] [MainThread]: Partial parsing: deleted file: dbt://macros\adapters\indexes.sql
+[0m17:28:08.034662 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\catalog.sql
+[0m17:28:08.035781 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\drop.sql
+[0m17:28:08.036977 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\relations\dynamic_table\replace.sql
+[0m17:28:08.039823 [debug] [MainThread]: Partial parsing: deleted file: dbt_snowflake://macros\materializations\functions\scalar.sql
+[0m17:28:08.042948 [error] [MainThread]: Encountered an error:
+'tradeflow://macros/generate_schema_name.sql'
+[0m17:28:08.045807 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 276, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 321, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 391, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 368, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 407, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 434, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+                          ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 2257, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 323, in get_full_manifest
+    manifest = loader.load()
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 392, in load
+    self.load_and_parse_macros(project_parser_files)
+  File "/home/airflow/.local/lib/python3.12/site-packages/dbt/parser/manifest.py", line 707, in load_and_parse_macros
+    block = FileBlock(self.manifest.files[file_id])
+                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'tradeflow://macros/generate_schema_name.sql'
+
+[0m17:28:08.048785 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 3.4929817, "process_in_blocks": "0", "process_kernel_time": 2.081496, "process_mem_max_rss": "205768", "process_out_blocks": "0", "process_user_time": 8.954896}
+[0m17:28:08.050600 [debug] [MainThread]: Command `dbt run` failed at 17:28:08.050436 after 3.50 seconds
+[0m17:28:08.051982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d083c980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc89b5e8b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc8d05cd970>]}
+[0m17:28:08.053529 [debug] [MainThread]: Flushing usage events
+[0m17:28:08.305689 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:30:29.115219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e6c6b1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e72817c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e72801d0>]}
+
+
+============================== 17:30:29.126978 | a01a10a3-8635-464f-b3d8-48f6a4dbeddd ==============================
+[0m17:30:29.126978 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:30:29.129285 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'log_cache_events': 'False', 'printer_width': '80', 'warn_error': 'None', 'profiles_dir': '/opt/airflow/dbt', 'write_json': 'True', 'empty': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'quiet': 'False', 'use_colors': 'True', 'log_format': 'default'}
+[0m17:30:30.111209 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:30:30.113828 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:30:30.116271 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:30:30.371630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512b73e49b0>]}
+[0m17:30:30.470262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e7761130>]}
+[0m17:30:30.473819 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:30:30.631157 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:30:30.805612 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m17:30:30.807996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e6cdc860>]}
+[0m17:30:32.991410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512af964530>]}
+[0m17:30:33.149755 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m17:30:33.161718 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m17:30:33.208406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512ada5e5d0>]}
+[0m17:30:33.210457 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m17:30:33.214026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a01a10a3-8635-464f-b3d8-48f6a4dbeddd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512afa97860>]}
+[0m17:30:33.219414 [info ] [MainThread]: 
+[0m17:30:33.221765 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:30:33.223895 [info ] [MainThread]: 
+[0m17:30:33.226085 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:30:33.235307 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_tradeflow'
+[0m17:30:33.306993 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:30:33.309819 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.312428 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:30:33.314951 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.317541 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.320039 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:30:33.323257 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.329155 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:30:33.331449 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.333456 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:30:33.336241 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.337915 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.340680 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:30:33.342340 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.347049 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:30:33.349145 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.350820 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:30:33.352750 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:30:33.354369 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.356503 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:30:33.358356 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:30:33.360748 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:30:33.362761 [debug] [MainThread]: Connection 'list_tradeflow' was left open.
+[0m17:30:33.364588 [debug] [MainThread]: On list_tradeflow: No close available on handle
+[0m17:30:33.366141 [info ] [MainThread]: 
+[0m17:30:33.367666 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m17:30:33.369748 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "tradeflow"
+  Database Error
+    [Errno 2] No such file or directory: '/opt/airflow/.snowflake/rsa_key.p8'
+[0m17:30:33.372771 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 4.4176116, "process_in_blocks": "1456", "process_kernel_time": 1.882693, "process_mem_max_rss": "215316", "process_out_blocks": "0", "process_user_time": 6.689568}
+[0m17:30:33.374740 [debug] [MainThread]: Command `dbt run` failed at 17:30:33.374563 after 4.42 seconds
+[0m17:30:33.376478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512e6b66c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512ada8b2f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7512ada5cda0>]}
+[0m17:30:33.378147 [debug] [MainThread]: Flushing usage events
+[0m17:30:33.608313 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:32:20.192868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167c47cda30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167c4647440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167c47cd040>]}
+
+
+============================== 17:32:20.202640 | 9842fda4-32e3-4605-a586-445aa6589252 ==============================
+[0m17:32:20.202640 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:32:20.204556 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'log_path': '/opt/airflow/dbt/logs', 'target_path': 'None', 'cache_selected_only': 'False', 'quiet': 'False', 'log_format': 'default', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'version_check': 'True', 'printer_width': '80'}
+[0m17:32:21.131169 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:32:21.132973 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:32:21.134296 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:32:21.373268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9842fda4-32e3-4605-a586-445aa6589252', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678e71a4b0>]}
+[0m17:32:21.454130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9842fda4-32e3-4605-a586-445aa6589252', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678e71a900>]}
+[0m17:32:21.458639 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:32:21.584997 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:32:22.002446 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:32:22.005210 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:32:22.007409 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:32:22.066781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9842fda4-32e3-4605-a586-445aa6589252', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678d923a70>]}
+[0m17:32:22.236927 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m17:32:22.259764 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m17:32:22.299387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9842fda4-32e3-4605-a586-445aa6589252', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678d75aa80>]}
+[0m17:32:22.305122 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m17:32:22.306998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9842fda4-32e3-4605-a586-445aa6589252', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678e752270>]}
+[0m17:32:22.311740 [info ] [MainThread]: 
+[0m17:32:22.314647 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:32:22.316436 [info ] [MainThread]: 
+[0m17:32:22.318128 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:32:22.325510 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_tradeflow'
+[0m17:32:22.375114 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:22.377819 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.380173 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:32:22.382986 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.384994 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.386849 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:22.388548 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.394479 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:22.396771 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.398485 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:32:22.400353 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.402205 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.404550 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:22.406378 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.411764 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:22.413721 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.415566 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:32:22.417520 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:22.419286 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.421072 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:22.423147 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:22.425442 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:32:22.427432 [debug] [MainThread]: Connection 'list_tradeflow' was left open.
+[0m17:32:22.429165 [debug] [MainThread]: On list_tradeflow: No close available on handle
+[0m17:32:22.430830 [info ] [MainThread]: 
+[0m17:32:22.432688 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.11 seconds (0.11s).
+[0m17:32:22.434258 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "tradeflow"
+  Database Error
+    [Errno 2] No such file or directory: '/opt/airflow/.snowflake/rsa_key.p8'
+[0m17:32:22.436533 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.352262, "process_in_blocks": "0", "process_kernel_time": 1.695377, "process_mem_max_rss": "210016", "process_out_blocks": "0", "process_user_time": 4.70119}
+[0m17:32:22.439021 [debug] [MainThread]: Command `dbt run` failed at 17:32:22.438843 after 2.35 seconds
+[0m17:32:22.440952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167c3a23680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678d26dbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678d361850>]}
+[0m17:32:22.442927 [debug] [MainThread]: Flushing usage events
+[0m17:32:22.681473 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:32:45.122487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77573071e360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77572e7218e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77572e7211c0>]}
+
+
+============================== 17:32:45.136355 | ed7f33a3-1fa1-4c85-ba16-a4e901994d72 ==============================
+[0m17:32:45.136355 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:32:45.138945 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'static_parser': 'True', 'debug': 'False', 'write_json': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'introspect': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'log_format': 'default', 'warn_error': 'None', 'log_path': '/opt/airflow/dbt/logs', 'use_colors': 'True', 'quiet': 'False', 'empty': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_cache_events': 'False', 'partial_parse': 'True'}
+[0m17:32:46.313739 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:32:46.316492 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:32:46.318980 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:32:46.670059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ed7f33a3-1fa1-4c85-ba16-a4e901994d72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc260e00>]}
+[0m17:32:46.796393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ed7f33a3-1fa1-4c85-ba16-a4e901994d72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc67f5f0>]}
+[0m17:32:46.799669 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:32:46.965879 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:32:47.447813 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:32:47.450250 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:32:47.451686 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:32:47.494676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ed7f33a3-1fa1-4c85-ba16-a4e901994d72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc049220>]}
+[0m17:32:47.678720 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m17:32:47.690059 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m17:32:47.726149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ed7f33a3-1fa1-4c85-ba16-a4e901994d72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756f7792a80>]}
+[0m17:32:47.728410 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m17:32:47.730434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ed7f33a3-1fa1-4c85-ba16-a4e901994d72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fdda2e70>]}
+[0m17:32:47.735095 [info ] [MainThread]: 
+[0m17:32:47.738583 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:32:47.741230 [info ] [MainThread]: 
+[0m17:32:47.744574 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:32:47.752000 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_tradeflow'
+[0m17:32:47.799446 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:47.801812 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.803904 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:32:47.806487 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.808936 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.811276 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:47.813002 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.817364 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:47.819085 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.820758 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:32:47.822553 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.824179 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.826098 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:47.827718 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.831506 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:32:47.833594 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.835440 [debug] [ThreadPool]: Opening a new connection, currently in state fail
+[0m17:32:47.836934 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:32:47.838942 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.840796 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:32:47.842714 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:32:47.844764 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:32:47.846264 [debug] [MainThread]: Connection 'list_tradeflow' was left open.
+[0m17:32:47.847840 [debug] [MainThread]: On list_tradeflow: No close available on handle
+[0m17:32:47.849494 [info ] [MainThread]: 
+[0m17:32:47.851095 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.11 seconds (0.11s).
+[0m17:32:47.852854 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "tradeflow"
+  Database Error
+    [Errno 2] No such file or directory: '/opt/airflow/.snowflake/rsa_key.p8'
+[0m17:32:47.855384 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.8737452, "process_in_blocks": "0", "process_kernel_time": 1.759371, "process_mem_max_rss": "210388", "process_out_blocks": "0", "process_user_time": 5.214136}
+[0m17:32:47.857127 [debug] [MainThread]: Command `dbt run` failed at 17:32:47.856978 after 2.88 seconds
+[0m17:32:47.858653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77572d7df230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc1b34d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc1b3200>]}
+[0m17:32:47.860134 [debug] [MainThread]: Flushing usage events
+[0m17:32:48.178908 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:37:14.348484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535b2d3bbf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535b31fd8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535b3b12cf0>]}
+
+
+============================== 17:37:14.363842 | bb2fdea6-0d8d-47a0-a776-f35905c2ed5a ==============================
+[0m17:37:14.363842 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:37:14.367069 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'fail_fast': 'False', 'empty': 'False', 'debug': 'False', 'introspect': 'True', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'quiet': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'no_print': 'None', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'partial_parse': 'True', 'target_path': 'None', 'warn_error': 'None', 'use_colors': 'True'}
+[0m17:37:17.753044 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:37:17.756059 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:37:17.759067 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:37:18.270947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753582a2b500>]}
+[0m17:37:18.464160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535835dc590>]}
+[0m17:37:18.509601 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m17:37:18.904635 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:37:19.457426 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:37:19.460607 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:37:19.463556 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:37:19.521274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535800f79b0>]}
+[0m17:37:19.732640 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m17:37:19.746291 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m17:37:19.791027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75357bba1e50>]}
+[0m17:37:19.793785 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m17:37:19.797439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75357bb8eb10>]}
+[0m17:37:19.803031 [info ] [MainThread]: 
+[0m17:37:19.805951 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:37:19.808489 [info ] [MainThread]: 
+[0m17:37:19.812768 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:37:19.825625 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_tradeflow'
+[0m17:37:19.886170 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:37:19.890832 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:37:19.893271 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:37:22.931135 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 3.038 seconds
+[0m17:37:22.938682 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:37:22.941404 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:37:23.196132 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.253 seconds
+[0m17:37:23.201591 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m17:37:23.203153 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m17:37:23.297573 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.093 seconds
+[0m17:37:23.304198 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow, now list_tradeflow_staging)
+[0m17:37:23.317863 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_staging"
+[0m17:37:23.319927 [debug] [ThreadPool]: On list_tradeflow_staging: show objects in tradeflow.staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_staging"} */;
+[0m17:37:23.623789 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.302 seconds
+[0m17:37:23.628979 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow_staging, now list_tradeflow_marts)
+[0m17:37:23.632387 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_marts"
+[0m17:37:23.633448 [debug] [ThreadPool]: On list_tradeflow_marts: show objects in tradeflow.marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_marts"} */;
+[0m17:37:23.981755 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.347 seconds
+[0m17:37:23.985929 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow_marts, now list_tradeflow_intermediate)
+[0m17:37:23.989163 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_intermediate"
+[0m17:37:23.990698 [debug] [ThreadPool]: On list_tradeflow_intermediate: show objects in tradeflow.intermediate
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_intermediate"} */;
+[0m17:37:24.098908 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.107 seconds
+[0m17:37:24.105221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75357b8f0500>]}
+[0m17:37:24.123372 [debug] [Thread-2 (]: Began running node model.tradeflow.int_cart_products
+[0m17:37:24.125580 [info ] [Thread-2 (]: 1 of 7 START sql view model intermediate.int_cart_products ..................... [RUN]
+[0m17:37:24.127435 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_tradeflow_intermediate, now model.tradeflow.int_cart_products)
+[0m17:37:24.129132 [debug] [Thread-2 (]: Began compiling node model.tradeflow.int_cart_products
+[0m17:37:24.136026 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.int_cart_products"
+[0m17:37:24.156419 [debug] [Thread-2 (]: Began executing node model.tradeflow.int_cart_products
+[0m17:37:24.185559 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.int_cart_products"
+[0m17:37:24.205963 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.int_cart_products"
+[0m17:37:24.207533 [debug] [Thread-2 (]: On model.tradeflow.int_cart_products: create or replace   view tradeflow.intermediate.int_cart_products
+  
+  
+  
+  
+  as (
+    select
+    c.raw_data:id::INT as cart_id,
+    p.value:id::INT as product_id,
+    p.value:title::VARCHAR title,
+    p.value:quantity::FLOAT quantity,
+    p.value:total::FLOAT total,
+    p.value:discountPercentage::FLOAT discount_percentage,
+    p.value:discountedTotal::FLOAT discounted_total
+
+from tradeflow.raw.raw_carts c,
+lateral flatten(input => c.raw_data:products) p
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.int_cart_products"} */;
+[0m17:37:24.519702 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.310 seconds
+[0m17:37:24.557245 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535b34e59d0>]}
+[0m17:37:24.559881 [info ] [Thread-2 (]: 1 of 7 OK created sql view model intermediate.int_cart_products ................ [[32mSUCCESS 1[0m in 0.43s]
+[0m17:37:24.561763 [debug] [Thread-2 (]: Finished running node model.tradeflow.int_cart_products
+[0m17:37:24.563027 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_carts
+[0m17:37:24.564063 [info ] [Thread-2 (]: 2 of 7 START sql view model staging.stg_carts .................................. [RUN]
+[0m17:37:24.565050 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.int_cart_products, now model.tradeflow.stg_carts)
+[0m17:37:24.565822 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_carts
+[0m17:37:24.568628 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_carts"
+[0m17:37:24.579801 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_carts
+[0m17:37:24.583437 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_carts"
+[0m17:37:24.597870 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_carts"
+[0m17:37:24.599717 [debug] [Thread-2 (]: On model.tradeflow.stg_carts: create or replace   view tradeflow.staging.stg_carts
+  
+  
+  
+  
+  as (
+    select
+
+    raw_data:id::INT as id,
+    raw_data:userId::INT user_id,
+    raw_data:products as products,
+    raw_data:total::FLOAT  total,
+    raw_data:discountedTotal::FLOAT  as discounted_total,
+    raw_data:totalProducts::INT as total_products,
+    raw_data:totalQuantity::INT as total_quantity,
+    extracted_at
+
+from tradeflow.raw.raw_carts
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_carts"} */;
+[0m17:37:24.892552 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.291 seconds
+[0m17:37:24.897565 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75357b784230>]}
+[0m17:37:24.900033 [info ] [Thread-2 (]: 2 of 7 OK created sql view model staging.stg_carts ............................. [[32mSUCCESS 1[0m in 0.33s]
+[0m17:37:24.901565 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_carts
+[0m17:37:24.903087 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_products
+[0m17:37:24.904837 [info ] [Thread-2 (]: 3 of 7 START sql view model staging.stg_products ............................... [RUN]
+[0m17:37:24.906373 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_carts, now model.tradeflow.stg_products)
+[0m17:37:24.907451 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_products
+[0m17:37:24.911048 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_products"
+[0m17:37:24.923008 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_products
+[0m17:37:24.932454 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_products"
+[0m17:37:24.955274 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_products"
+[0m17:37:24.958079 [debug] [Thread-2 (]: On model.tradeflow.stg_products: create or replace   view tradeflow.staging.stg_products
+  
+  
+  
+  
+  as (
+    select
+    raw_data:id::INT as id,
+    raw_data:title::VARCHAR as title,
+    raw_data:description::VARCHAR as description,
+    raw_data:category::VARCHAR as category,
+    raw_data:price::FLOAT as price,
+    raw_data:discountPercentage::FLOAT as discount_percentage,
+    raw_data:rating::FLOAT as rating,
+    raw_data:stock::INT as stock,
+    raw_data:brand::VARCHAR as brand,
+    raw_data:sku::VARCHAR as sku,
+    raw_data:weight::FLOAT as weight,
+    raw_data:dimensions:width::FLOAT as width,
+    raw_data:dimensions:height::FLOAT as height,
+    raw_data:dimensions:depth::FLOAT as depth,
+    raw_data:warrantyInformation::VARCHAR as warranty_info,
+    raw_data:shippingInformation::VARCHAR as shipping_info,
+    raw_data:availabilityStatus::VARCHAR as availability_status,
+    raw_data:returnPolicy::VARCHAR as return_policy,
+    raw_data:minimumOrderQuantity::INT as minimum_order_quantity,
+    raw_data:meta:barcode::VARCHAR as barcode,
+    raw_data:meta:createdAt::TIMESTAMP as created_at,
+    raw_data:meta:updatedAt::TIMESTAMP as updated_at,
+    extracted_at
+from tradeflow.raw.raw_products
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_products"} */;
+[0m17:37:25.258290 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.299 seconds
+[0m17:37:25.261480 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753579b32cf0>]}
+[0m17:37:25.263311 [info ] [Thread-2 (]: 3 of 7 OK created sql view model staging.stg_products .......................... [[32mSUCCESS 1[0m in 0.36s]
+[0m17:37:25.264583 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_products
+[0m17:37:25.265899 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_users
+[0m17:37:25.267426 [info ] [Thread-2 (]: 4 of 7 START sql view model staging.stg_users .................................. [RUN]
+[0m17:37:25.268781 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_products, now model.tradeflow.stg_users)
+[0m17:37:25.270346 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_users
+[0m17:37:25.274183 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_users"
+[0m17:37:25.290186 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_users
+[0m17:37:25.295008 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_users"
+[0m17:37:25.313974 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_users"
+[0m17:37:25.319006 [debug] [Thread-2 (]: On model.tradeflow.stg_users: create or replace   view tradeflow.staging.stg_users
+  
+  
+  
+  
+  as (
+    SELECT
+    raw_data:id::INT as id,
+    raw_data:firstName::VARCHAR as first_name,
+    raw_data:lastName::VARCHAR as last_name,
+    raw_data:maidenName::VARCHAR as maiden_name,
+    raw_data:age::INT as age,
+    raw_data:gender::VARCHAR as gender,
+    raw_data:email::VARCHAR as email,
+    raw_data:phone::VARCHAR as phone,
+    raw_data:birthDate::VARCHAR as birth_date,
+    raw_data:address:address::VARCHAR as address,
+    raw_data:city:address::VARCHAR as city,
+    raw_data:state:address::VARCHAR as state,
+    raw_data:stateCode:address::VARCHAR as state_code,
+    raw_data:postalCode:address::VARCHAR as postal_code,
+    raw_data:country:address::VARCHAR as country,
+    extracted_at
+
+from tradeflow.raw.raw_users
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_users"} */;
+[0m17:37:25.753271 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.432 seconds
+[0m17:37:25.757028 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75357b4bca70>]}
+[0m17:37:25.758942 [info ] [Thread-2 (]: 4 of 7 OK created sql view model staging.stg_users ............................. [[32mSUCCESS 1[0m in 0.49s]
+[0m17:37:25.760699 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_users
+[0m17:37:25.762844 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_inventory_health
+[0m17:37:25.764602 [info ] [Thread-2 (]: 5 of 7 START sql view model marts.mart_inventory_health ........................ [RUN]
+[0m17:37:25.766384 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_users, now model.tradeflow.mart_inventory_health)
+[0m17:37:25.767763 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_inventory_health
+[0m17:37:25.771568 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_inventory_health"
+[0m17:37:25.786923 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_inventory_health
+[0m17:37:25.793033 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_inventory_health"
+[0m17:37:25.814022 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_inventory_health"
+[0m17:37:25.816227 [debug] [Thread-2 (]: On model.tradeflow.mart_inventory_health: create or replace   view tradeflow.marts.mart_inventory_health
+  
+  
+  
+  
+  as (
+    select
+
+    sum(cp.quantity) demand,
+    p.stock as product_in_stock,
+    case 
+        when p.stock < p.minimum_order_quantity then 'critical'
+        when p.stock < p.minimum_order_quantity * 2 then 'low'
+        else 'healthy'
+    end as stock_status,
+
+    p.id as product_id,
+    p.title as title,
+    p.category as category,
+    p.price as price,
+    p.discount_percentage as product_discount_percentage,
+    p.rating as product_rating,
+    p.brand as product_brand,
+    p.sku as product_sku,
+    p.weight as product_weight,
+    p.width as product_width,
+    p.height as product_height,
+    p.depth as product_depth,
+    p.warranty_info as product_warranty_info,
+    p.shipping_info as product_shipping_info,
+    p.availability_status as product_availability_status,
+    p.return_policy as product_return_policy,
+    p.minimum_order_quantity as product_minimum_order_quantity,
+    p.created_at as product_created_at,
+    p.updated_at as product_updated_at,
+    p.extracted_at
+    
+from tradeflow.staging.stg_products as p
+left join tradeflow.intermediate.int_cart_products as cp on cp.product_id = p.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_inventory_health"} */;
+[0m17:37:26.385962 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.567 seconds
+[0m17:37:26.401219 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753579b53290>]}
+[0m17:37:26.404526 [info ] [Thread-2 (]: 5 of 7 OK created sql view model marts.mart_inventory_health ................... [[32mSUCCESS 1[0m in 0.63s]
+[0m17:37:26.406735 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_inventory_health
+[0m17:37:26.408780 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_product_performance
+[0m17:37:26.411344 [info ] [Thread-2 (]: 6 of 7 START sql view model marts.mart_product_performance ..................... [RUN]
+[0m17:37:26.414017 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.mart_inventory_health, now model.tradeflow.mart_product_performance)
+[0m17:37:26.416461 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_product_performance
+[0m17:37:26.422662 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_product_performance"
+[0m17:37:26.437840 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_product_performance
+[0m17:37:26.443194 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_product_performance"
+[0m17:37:26.457609 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_product_performance"
+[0m17:37:26.461239 [debug] [Thread-2 (]: On model.tradeflow.mart_product_performance: create or replace   view tradeflow.marts.mart_product_performance
+  
+  
+  
+  
+  as (
+    select
+    count(cp.cart_id) as in_num_orders,
+    sum(cp.quantity) total_quantity,
+    sum(cp.total) total_revenue,
+    avg(cp.discount_percentage) avg_discount_percentage,
+    avg(cp.discounted_total) avg_discount_total,
+
+    p.id as product_id,
+    p.title as title,
+    p.category as category,
+    p.price as price,
+    p.discount_percentage as product_discount_percentage,
+    p.rating as product_rating,
+    p.stock as product_stock,
+    p.brand as product_brand,
+    p.sku as product_sku,
+    p.weight as product_weight,
+    p.width as product_width,
+    p.height as product_height,
+    p.depth as product_depth,
+    p.warranty_info as product_warranty_info,
+    p.shipping_info as product_shipping_info,
+    p.availability_status as product_availability_status,
+    p.return_policy as product_return_policy,
+    p.minimum_order_quantity as product_minimum_order_quantity,
+    p.created_at as product_created_at,
+    p.updated_at as product_updated_at,
+    p.extracted_at
+    
+from tradeflow.staging.stg_products as p
+left join tradeflow.intermediate.int_cart_products as cp on cp.product_id = p.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_product_performance"} */;
+[0m17:37:27.012512 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.548 seconds
+[0m17:37:27.016521 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753579b63440>]}
+[0m17:37:27.018649 [info ] [Thread-2 (]: 6 of 7 OK created sql view model marts.mart_product_performance ................ [[32mSUCCESS 1[0m in 0.60s]
+[0m17:37:27.020783 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_product_performance
+[0m17:37:27.021980 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_customer_summary
+[0m17:37:27.023844 [info ] [Thread-2 (]: 7 of 7 START sql view model marts.mart_customer_summary ........................ [RUN]
+[0m17:37:27.025336 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.mart_product_performance, now model.tradeflow.mart_customer_summary)
+[0m17:37:27.026960 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_customer_summary
+[0m17:37:27.030854 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_customer_summary"
+[0m17:37:27.045938 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_customer_summary
+[0m17:37:27.049541 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_customer_summary"
+[0m17:37:27.061952 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_customer_summary"
+[0m17:37:27.063369 [debug] [Thread-2 (]: On model.tradeflow.mart_customer_summary: create or replace   view tradeflow.marts.mart_customer_summary
+  
+  
+  
+  
+  as (
+    SELECT
+    u.id,
+
+    count(c.id) as num_orders,
+    avg(c.total) as avg_order_value,
+    sum(c.discounted_total) as total_discounted_value,
+    sum(c.total_products) as num_products_ordered,
+    sum(c.total_quantity) as total_quantity_ordered,
+
+    u.first_name,
+    u.last_name,
+    u.maiden_name,
+    u.age,
+    u.gender,
+    u.email,
+    u.phone,
+    u.birth_date,
+    u.address,
+    u.city,
+    u.state,
+    u.state_code,
+    u.postal_code,
+    u.country,
+    u.extracted_at
+
+from tradeflow.staging.stg_users as u
+left join tradeflow.staging.stg_carts as c on c.user_id = u.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_customer_summary"} */;
+[0m17:37:27.401074 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.334 seconds
+[0m17:37:27.406356 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb2fdea6-0d8d-47a0-a776-f35905c2ed5a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753579b33c50>]}
+[0m17:37:27.410096 [info ] [Thread-2 (]: 7 of 7 OK created sql view model marts.mart_customer_summary ................... [[32mSUCCESS 1[0m in 0.38s]
+[0m17:37:27.412695 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_customer_summary
+[0m17:37:27.417448 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:37:27.419776 [debug] [MainThread]: Connection 'model.tradeflow.mart_customer_summary' was left open.
+[0m17:37:27.422099 [debug] [MainThread]: On model.tradeflow.mart_customer_summary: Close
+[0m17:37:27.539359 [info ] [MainThread]: 
+[0m17:37:27.543262 [info ] [MainThread]: Finished running 7 view models in 0 hours 0 minutes and 7.73 seconds (7.73s).
+[0m17:37:27.547987 [debug] [MainThread]: Command end result
+[0m17:37:27.661144 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m17:37:27.677164 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m17:37:27.698293 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m17:37:27.700471 [info ] [MainThread]: 
+[0m17:37:27.703740 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:37:27.706262 [info ] [MainThread]: 
+[0m17:37:27.708779 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=7
+[0m17:37:27.712393 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 13.531, "process_in_blocks": "96", "process_kernel_time": 2.739512, "process_mem_max_rss": "225252", "process_out_blocks": "24136", "process_user_time": 9.72227}
+[0m17:37:27.715228 [debug] [MainThread]: Command `dbt run` succeeded at 17:37:27.714994 after 13.53 seconds
+[0m17:37:27.717553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7535b6583020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75358351dc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x753580b30e60>]}
+[0m17:37:27.720191 [debug] [MainThread]: Flushing usage events
+[0m17:37:28.014258 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:58.390446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c231621b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c231618e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c23162450>]}
+
+
+============================== 18:03:58.402107 | d77d226b-ffc4-43b5-89a0-56f787b0acf5 ==============================
+[0m18:03:58.402107 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:03:58.404161 [debug] [MainThread]: running dbt with arguments {'log_path': '/opt/airflow/dbt/logs', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'write_json': 'True', 'version_check': 'True', 'no_print': 'None', 'profiles_dir': '/opt/airflow/dbt', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'printer_width': '80', 'quiet': 'False', 'empty': 'False', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'target_path': 'None', 'fail_fast': 'False', 'log_cache_events': 'False'}
+[0m18:03:59.580476 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:03:59.583284 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:03:59.585866 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:03:59.971324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf11d4380>]}
+[0m18:04:00.077915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c23778860>]}
+[0m18:04:00.082128 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m18:04:00.249804 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m18:04:00.787991 [warn ] [MainThread]: [[33mWARNING[0m][CustomTopLevelKeyDeprecation]: Deprecated functionality
+Unexpected top-level key yamlmodels in file `models/staging/staging.yml`
+[0m18:04:00.790878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf04a8680>]}
+[0m18:04:00.863180 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m18:04:00.866313 [debug] [MainThread]: Partial parsing: added file: tradeflow://models/staging/staging.yml
+[0m18:04:01.009128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf00a6a20>]}
+[0m18:04:01.166885 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m18:04:01.191170 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m18:04:01.233074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bebf05b80>]}
+[0m18:04:01.240863 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m18:04:01.243345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf2a51d30>]}
+[0m18:04:01.249019 [info ] [MainThread]: 
+[0m18:04:01.252292 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:04:01.255101 [info ] [MainThread]: 
+[0m18:04:01.258050 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:04:01.266958 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_tradeflow'
+[0m18:04:01.414056 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m18:04:01.418061 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m18:04:01.420250 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:04:02.521262 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.101 seconds
+[0m18:04:02.525915 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m18:04:02.527272 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m18:04:02.773193 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.245 seconds
+[0m18:04:02.789059 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow"
+[0m18:04:02.790983 [debug] [ThreadPool]: On list_tradeflow: show terse schemas in database tradeflow
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow"} */
+[0m18:04:02.922699 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.129 seconds
+[0m18:04:02.926620 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow, now list_tradeflow_intermediate)
+[0m18:04:02.937316 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_intermediate"
+[0m18:04:02.939108 [debug] [ThreadPool]: On list_tradeflow_intermediate: show objects in tradeflow.intermediate
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_intermediate"} */;
+[0m18:04:03.121109 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.181 seconds
+[0m18:04:03.124056 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow_intermediate, now list_tradeflow_marts)
+[0m18:04:03.127522 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_marts"
+[0m18:04:03.128829 [debug] [ThreadPool]: On list_tradeflow_marts: show objects in tradeflow.marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_marts"} */;
+[0m18:04:03.308707 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.179 seconds
+[0m18:04:03.311757 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tradeflow_marts, now list_tradeflow_staging)
+[0m18:04:03.315249 [debug] [ThreadPool]: Using snowflake connection "list_tradeflow_staging"
+[0m18:04:03.317627 [debug] [ThreadPool]: On list_tradeflow_staging: show objects in tradeflow.staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "connection_name": "list_tradeflow_staging"} */;
+[0m18:04:03.662626 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.344 seconds
+[0m18:04:03.670333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bebb8d100>]}
+[0m18:04:03.675155 [debug] [Thread-2 (]: Began running node model.tradeflow.int_cart_products
+[0m18:04:03.676335 [info ] [Thread-2 (]: 1 of 7 START sql view model intermediate.int_cart_products ..................... [RUN]
+[0m18:04:03.677811 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_tradeflow_staging, now model.tradeflow.int_cart_products)
+[0m18:04:03.678901 [debug] [Thread-2 (]: Began compiling node model.tradeflow.int_cart_products
+[0m18:04:03.685930 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.int_cart_products"
+[0m18:04:03.695607 [debug] [Thread-2 (]: Began executing node model.tradeflow.int_cart_products
+[0m18:04:03.721406 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.int_cart_products"
+[0m18:04:03.735415 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.int_cart_products"
+[0m18:04:03.737001 [debug] [Thread-2 (]: On model.tradeflow.int_cart_products: create or replace   view tradeflow.intermediate.int_cart_products
+  
+  
+  
+  
+  as (
+    select
+    c.raw_data:id::INT as cart_id,
+    p.value:id::INT as product_id,
+    p.value:title::VARCHAR title,
+    p.value:quantity::FLOAT quantity,
+    p.value:total::FLOAT total,
+    p.value:discountPercentage::FLOAT discount_percentage,
+    p.value:discountedTotal::FLOAT discounted_total
+
+from tradeflow.raw.raw_carts c,
+lateral flatten(input => c.raw_data:products) p
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.int_cart_products"} */;
+[0m18:04:03.983814 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.247 seconds
+[0m18:04:04.006743 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c238c0ce0>]}
+[0m18:04:04.008440 [info ] [Thread-2 (]: 1 of 7 OK created sql view model intermediate.int_cart_products ................ [[32mSUCCESS 1[0m in 0.33s]
+[0m18:04:04.009954 [debug] [Thread-2 (]: Finished running node model.tradeflow.int_cart_products
+[0m18:04:04.011419 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_carts
+[0m18:04:04.012764 [info ] [Thread-2 (]: 2 of 7 START sql view model staging.stg_carts .................................. [RUN]
+[0m18:04:04.013997 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.int_cart_products, now model.tradeflow.stg_carts)
+[0m18:04:04.015215 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_carts
+[0m18:04:04.018315 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_carts"
+[0m18:04:04.027711 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_carts
+[0m18:04:04.030722 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_carts"
+[0m18:04:04.055412 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_carts"
+[0m18:04:04.056644 [debug] [Thread-2 (]: On model.tradeflow.stg_carts: create or replace   view tradeflow.staging.stg_carts
+  
+  
+  
+  
+  as (
+    select
+
+    raw_data:id::INT as id,
+    raw_data:userId::INT user_id,
+    raw_data:products as products,
+    raw_data:total::FLOAT  total,
+    raw_data:discountedTotal::FLOAT  as discounted_total,
+    raw_data:totalProducts::INT as total_products,
+    raw_data:totalQuantity::INT as total_quantity,
+    extracted_at
+
+from tradeflow.raw.raw_carts
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_carts"} */;
+[0m18:04:04.315055 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.257 seconds
+[0m18:04:04.317893 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bebab9820>]}
+[0m18:04:04.319335 [info ] [Thread-2 (]: 2 of 7 OK created sql view model staging.stg_carts ............................. [[32mSUCCESS 1[0m in 0.30s]
+[0m18:04:04.321119 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_carts
+[0m18:04:04.322503 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_products
+[0m18:04:04.323893 [info ] [Thread-2 (]: 3 of 7 START sql view model staging.stg_products ............................... [RUN]
+[0m18:04:04.325337 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_carts, now model.tradeflow.stg_products)
+[0m18:04:04.326444 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_products
+[0m18:04:04.329651 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_products"
+[0m18:04:04.342420 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_products
+[0m18:04:04.346096 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_products"
+[0m18:04:04.361540 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_products"
+[0m18:04:04.363658 [debug] [Thread-2 (]: On model.tradeflow.stg_products: create or replace   view tradeflow.staging.stg_products
+  
+  
+  
+  
+  as (
+    select
+    raw_data:id::INT as id,
+    raw_data:title::VARCHAR as title,
+    raw_data:description::VARCHAR as description,
+    raw_data:category::VARCHAR as category,
+    raw_data:price::FLOAT as price,
+    raw_data:discountPercentage::FLOAT as discount_percentage,
+    raw_data:rating::FLOAT as rating,
+    raw_data:stock::INT as stock,
+    raw_data:brand::VARCHAR as brand,
+    raw_data:sku::VARCHAR as sku,
+    raw_data:weight::FLOAT as weight,
+    raw_data:dimensions:width::FLOAT as width,
+    raw_data:dimensions:height::FLOAT as height,
+    raw_data:dimensions:depth::FLOAT as depth,
+    raw_data:warrantyInformation::VARCHAR as warranty_info,
+    raw_data:shippingInformation::VARCHAR as shipping_info,
+    raw_data:availabilityStatus::VARCHAR as availability_status,
+    raw_data:returnPolicy::VARCHAR as return_policy,
+    raw_data:minimumOrderQuantity::INT as minimum_order_quantity,
+    raw_data:meta:barcode::VARCHAR as barcode,
+    raw_data:meta:createdAt::TIMESTAMP as created_at,
+    raw_data:meta:updatedAt::TIMESTAMP as updated_at,
+    extracted_at
+from tradeflow.raw.raw_products
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_products"} */;
+[0m18:04:04.664575 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.299 seconds
+[0m18:04:04.671712 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bea119ac0>]}
+[0m18:04:04.675876 [info ] [Thread-2 (]: 3 of 7 OK created sql view model staging.stg_products .......................... [[32mSUCCESS 1[0m in 0.35s]
+[0m18:04:04.679045 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_products
+[0m18:04:04.681516 [debug] [Thread-2 (]: Began running node model.tradeflow.stg_users
+[0m18:04:04.683599 [info ] [Thread-2 (]: 4 of 7 START sql view model staging.stg_users .................................. [RUN]
+[0m18:04:04.685670 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_products, now model.tradeflow.stg_users)
+[0m18:04:04.687749 [debug] [Thread-2 (]: Began compiling node model.tradeflow.stg_users
+[0m18:04:04.693341 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.stg_users"
+[0m18:04:04.706170 [debug] [Thread-2 (]: Began executing node model.tradeflow.stg_users
+[0m18:04:04.710722 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.stg_users"
+[0m18:04:04.727724 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.stg_users"
+[0m18:04:04.729487 [debug] [Thread-2 (]: On model.tradeflow.stg_users: create or replace   view tradeflow.staging.stg_users
+  
+  
+  
+  
+  as (
+    SELECT
+    raw_data:id::INT as id,
+    raw_data:firstName::VARCHAR as first_name,
+    raw_data:lastName::VARCHAR as last_name,
+    raw_data:maidenName::VARCHAR as maiden_name,
+    raw_data:age::INT as age,
+    raw_data:gender::VARCHAR as gender,
+    raw_data:email::VARCHAR as email,
+    raw_data:phone::VARCHAR as phone,
+    raw_data:birthDate::VARCHAR as birth_date,
+    raw_data:address:address::VARCHAR as address,
+    raw_data:city:address::VARCHAR as city,
+    raw_data:state:address::VARCHAR as state,
+    raw_data:stateCode:address::VARCHAR as state_code,
+    raw_data:postalCode:address::VARCHAR as postal_code,
+    raw_data:country:address::VARCHAR as country,
+    extracted_at
+
+from tradeflow.raw.raw_users
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.stg_users"} */;
+[0m18:04:04.951755 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.220 seconds
+[0m18:04:04.957959 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bea129bb0>]}
+[0m18:04:04.961214 [info ] [Thread-2 (]: 4 of 7 OK created sql view model staging.stg_users ............................. [[32mSUCCESS 1[0m in 0.27s]
+[0m18:04:04.963006 [debug] [Thread-2 (]: Finished running node model.tradeflow.stg_users
+[0m18:04:04.964921 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_inventory_health
+[0m18:04:04.966777 [info ] [Thread-2 (]: 5 of 7 START sql view model marts.mart_inventory_health ........................ [RUN]
+[0m18:04:04.969343 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.stg_users, now model.tradeflow.mart_inventory_health)
+[0m18:04:04.971077 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_inventory_health
+[0m18:04:04.974759 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_inventory_health"
+[0m18:04:04.994461 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_inventory_health
+[0m18:04:04.998131 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_inventory_health"
+[0m18:04:05.015739 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_inventory_health"
+[0m18:04:05.017326 [debug] [Thread-2 (]: On model.tradeflow.mart_inventory_health: create or replace   view tradeflow.marts.mart_inventory_health
+  
+  
+  
+  
+  as (
+    select
+
+    sum(cp.quantity) demand,
+    p.stock as product_in_stock,
+    case 
+        when p.stock < p.minimum_order_quantity then 'critical'
+        when p.stock < p.minimum_order_quantity * 2 then 'low'
+        else 'healthy'
+    end as stock_status,
+
+    p.id as product_id,
+    p.title as title,
+    p.category as category,
+    p.price as price,
+    p.discount_percentage as product_discount_percentage,
+    p.rating as product_rating,
+    p.brand as product_brand,
+    p.sku as product_sku,
+    p.weight as product_weight,
+    p.width as product_width,
+    p.height as product_height,
+    p.depth as product_depth,
+    p.warranty_info as product_warranty_info,
+    p.shipping_info as product_shipping_info,
+    p.availability_status as product_availability_status,
+    p.return_policy as product_return_policy,
+    p.minimum_order_quantity as product_minimum_order_quantity,
+    p.created_at as product_created_at,
+    p.updated_at as product_updated_at,
+    p.extracted_at
+    
+from tradeflow.staging.stg_products as p
+left join tradeflow.intermediate.int_cart_products as cp on cp.product_id = p.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_inventory_health"} */;
+[0m18:04:05.452131 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.434 seconds
+[0m18:04:05.455516 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bebb01fa0>]}
+[0m18:04:05.457064 [info ] [Thread-2 (]: 5 of 7 OK created sql view model marts.mart_inventory_health ................... [[32mSUCCESS 1[0m in 0.49s]
+[0m18:04:05.458437 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_inventory_health
+[0m18:04:05.459546 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_product_performance
+[0m18:04:05.460952 [info ] [Thread-2 (]: 6 of 7 START sql view model marts.mart_product_performance ..................... [RUN]
+[0m18:04:05.462143 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.mart_inventory_health, now model.tradeflow.mart_product_performance)
+[0m18:04:05.463326 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_product_performance
+[0m18:04:05.466591 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_product_performance"
+[0m18:04:05.474528 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_product_performance
+[0m18:04:05.477368 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_product_performance"
+[0m18:04:05.497257 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_product_performance"
+[0m18:04:05.503572 [debug] [Thread-2 (]: On model.tradeflow.mart_product_performance: create or replace   view tradeflow.marts.mart_product_performance
+  
+  
+  
+  
+  as (
+    select
+    count(cp.cart_id) as in_num_orders,
+    sum(cp.quantity) total_quantity,
+    sum(cp.total) total_revenue,
+    avg(cp.discount_percentage) avg_discount_percentage,
+    avg(cp.discounted_total) avg_discount_total,
+
+    p.id as product_id,
+    p.title as title,
+    p.category as category,
+    p.price as price,
+    p.discount_percentage as product_discount_percentage,
+    p.rating as product_rating,
+    p.stock as product_stock,
+    p.brand as product_brand,
+    p.sku as product_sku,
+    p.weight as product_weight,
+    p.width as product_width,
+    p.height as product_height,
+    p.depth as product_depth,
+    p.warranty_info as product_warranty_info,
+    p.shipping_info as product_shipping_info,
+    p.availability_status as product_availability_status,
+    p.return_policy as product_return_policy,
+    p.minimum_order_quantity as product_minimum_order_quantity,
+    p.created_at as product_created_at,
+    p.updated_at as product_updated_at,
+    p.extracted_at
+    
+from tradeflow.staging.stg_products as p
+left join tradeflow.intermediate.int_cart_products as cp on cp.product_id = p.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_product_performance"} */;
+[0m18:04:06.051660 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.547 seconds
+[0m18:04:06.054354 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bebaaa360>]}
+[0m18:04:06.055652 [info ] [Thread-2 (]: 6 of 7 OK created sql view model marts.mart_product_performance ................ [[32mSUCCESS 1[0m in 0.59s]
+[0m18:04:06.056751 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_product_performance
+[0m18:04:06.057981 [debug] [Thread-2 (]: Began running node model.tradeflow.mart_customer_summary
+[0m18:04:06.059070 [info ] [Thread-2 (]: 7 of 7 START sql view model marts.mart_customer_summary ........................ [RUN]
+[0m18:04:06.060180 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.tradeflow.mart_product_performance, now model.tradeflow.mart_customer_summary)
+[0m18:04:06.061412 [debug] [Thread-2 (]: Began compiling node model.tradeflow.mart_customer_summary
+[0m18:04:06.064346 [debug] [Thread-2 (]: Writing injected SQL for node "model.tradeflow.mart_customer_summary"
+[0m18:04:06.071892 [debug] [Thread-2 (]: Began executing node model.tradeflow.mart_customer_summary
+[0m18:04:06.074877 [debug] [Thread-2 (]: Writing runtime sql for node "model.tradeflow.mart_customer_summary"
+[0m18:04:06.085447 [debug] [Thread-2 (]: Using snowflake connection "model.tradeflow.mart_customer_summary"
+[0m18:04:06.086690 [debug] [Thread-2 (]: On model.tradeflow.mart_customer_summary: create or replace   view tradeflow.marts.mart_customer_summary
+  
+  
+  
+  
+  as (
+    SELECT
+    u.id,
+
+    count(c.id) as num_orders,
+    avg(c.total) as avg_order_value,
+    sum(c.discounted_total) as total_discounted_value,
+    sum(c.total_products) as num_products_ordered,
+    sum(c.total_quantity) as total_quantity_ordered,
+
+    u.first_name,
+    u.last_name,
+    u.maiden_name,
+    u.age,
+    u.gender,
+    u.email,
+    u.phone,
+    u.birth_date,
+    u.address,
+    u.city,
+    u.state,
+    u.state_code,
+    u.postal_code,
+    u.country,
+    u.extracted_at
+
+from tradeflow.staging.stg_users as u
+left join tradeflow.staging.stg_carts as c on c.user_id = u.id
+
+group by all
+  )
+/* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "tradeflow", "target_name": "dev", "node_id": "model.tradeflow.mart_customer_summary"} */;
+[0m18:04:06.818678 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.731 seconds
+[0m18:04:06.821457 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd77d226b-ffc4-43b5-89a0-56f787b0acf5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bea108ec0>]}
+[0m18:04:06.822987 [info ] [Thread-2 (]: 7 of 7 OK created sql view model marts.mart_customer_summary ................... [[32mSUCCESS 1[0m in 0.76s]
+[0m18:04:06.824010 [debug] [Thread-2 (]: Finished running node model.tradeflow.mart_customer_summary
+[0m18:04:06.825962 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:04:06.826941 [debug] [MainThread]: Connection 'model.tradeflow.mart_customer_summary' was left open.
+[0m18:04:06.827872 [debug] [MainThread]: On model.tradeflow.mart_customer_summary: Close
+[0m18:04:06.933672 [info ] [MainThread]: 
+[0m18:04:06.935592 [info ] [MainThread]: Finished running 7 view models in 0 hours 0 minutes and 5.68 seconds (5.68s).
+[0m18:04:06.938010 [debug] [MainThread]: Command end result
+[0m18:04:06.985328 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m18:04:06.991070 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m18:04:07.009107 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m18:04:07.011046 [info ] [MainThread]: 
+[0m18:04:07.012607 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:04:07.013963 [info ] [MainThread]: 
+[0m18:04:07.015065 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=7
+[0m18:04:07.016080 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- CustomTopLevelKeyDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:04:07.017940 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 8.738417, "process_in_blocks": "0", "process_kernel_time": 2.426831, "process_mem_max_rss": "221252", "process_out_blocks": "16", "process_user_time": 6.492873}
+[0m18:04:07.018957 [debug] [MainThread]: Command `dbt run` succeeded at 18:04:07.018854 after 8.74 seconds
+[0m18:04:07.019992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c22945b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf0486f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754bf0487410>]}
+[0m18:04:07.021602 [debug] [MainThread]: Flushing usage events
+[0m18:04:07.321660 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:04:11.852427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb4d95e570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb4fafa870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb4e8619d0>]}
+
+
+============================== 18:04:11.862423 | 77a7758d-7df9-4d1f-810e-865dc5a4c4f8 ==============================
+[0m18:04:11.862423 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:04:11.864435 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'use_colors': 'True', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'empty': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'no_print': 'None', 'fail_fast': 'False', 'debug': 'False', 'write_json': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'printer_width': '80', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs'}
+[0m18:04:12.802378 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:04:12.804696 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:04:12.806851 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:04:13.054663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '77a7758d-7df9-4d1f-810e-865dc5a4c4f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb178f9b20>]}
+[0m18:04:13.135380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '77a7758d-7df9-4d1f-810e-865dc5a4c4f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb1ca00230>]}
+[0m18:04:13.139614 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m18:04:13.265928 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m18:04:13.587136 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:04:13.590041 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m18:04:13.591816 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:04:13.634274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '77a7758d-7df9-4d1f-810e-865dc5a4c4f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb16b76de0>]}
+[0m18:04:13.772441 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m18:04:13.784825 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m18:04:13.846325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '77a7758d-7df9-4d1f-810e-865dc5a4c4f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb16604290>]}
+[0m18:04:13.849901 [info ] [MainThread]: Found 7 models, 3 sources, 524 macros
+[0m18:04:13.852289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '77a7758d-7df9-4d1f-810e-865dc5a4c4f8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb1ddfc620>]}
+[0m18:04:13.858483 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:04:13.863051 [debug] [MainThread]: Command end result
+[0m18:04:14.024244 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m18:04:14.035669 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m18:04:14.051812 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m18:04:14.054257 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 2.3127403, "process_in_blocks": "0", "process_kernel_time": 1.721903, "process_mem_max_rss": "207400", "process_out_blocks": "0", "process_user_time": 4.689867}
+[0m18:04:14.058062 [debug] [MainThread]: Command `dbt test` succeeded at 18:04:14.057844 after 2.32 seconds
+[0m18:04:14.060819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb510d7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb510d7020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75eb166def60>]}
+[0m18:04:14.063560 [debug] [MainThread]: Flushing usage events
+[0m18:04:14.335034 [debug] [MainThread]: An error was encountered while trying to flush usage events

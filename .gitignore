@@ -1,2 +1,29 @@
+# Environment files (contains secrets)
 .env
+**/.env
+airflow/.env
+
+# Python
 venv/
+__pycache__/
+*.pyc
+
+# dbt
+dbt/profiles.yml
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Airflow
+airflow/logs/
+airflow/plugins/
+*.log
+
+# Snowflake keys
+.snowflake/
+*.p8
+*.pem
+
+# IDE
+.idea/
+.vscode/
