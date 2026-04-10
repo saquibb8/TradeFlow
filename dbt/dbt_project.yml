@@ -1,0 +1,16 @@
+name: 'tradeflow'
+version: '1.0.0'
+
+profile: 'tradeflow'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  tradeflow:
+    staging:
+      +schema: staging
+    intermediate:
+      +schema: intermediate
+    marts:
+      +schema: marts

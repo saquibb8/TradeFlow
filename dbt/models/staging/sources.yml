@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: tradeflow_raw
+    database: tradeflow
+    schema: raw
+    tables:
+      - name: raw_products
+      - name: raw_users
+      - name: raw_carts
